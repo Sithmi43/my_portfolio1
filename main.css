@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url("e.jpg");
+    background-color: #efeff6;
+    color:#262626;
+}
+
+.pages a {
+float: left;
+    display: block;
+    color: #0d0d0d; 
+    text-align: left;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+i
+.page {
+    width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h1, h2 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.about-me, .skills-strengths, .contact-info {
+    margin-bottom: 1.5rem;
+}
+.profile-pic {
+ display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  
+   
+}
+.skills-strengths ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-strengths li {
+    background-color: #ccd8ff;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+.contact-info a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.project {
+    margin-bottom: 1.5rem;
+}
+
+.project-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.achievements {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+.achievements li {
+    margin: 0.5rem 0;
+}
